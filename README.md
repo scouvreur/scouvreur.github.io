@@ -1,6 +1,6 @@
 # Personal Website
 
-Resume web page built in Bootstrap[Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/).
+Resume web page built in Bootstrap.
 
 ## Copyright and License
 
