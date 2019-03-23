@@ -1,6 +1,6 @@
 # [Personal Website](https://scouvreur.github.io)
 
-Resume web page built in Bootstrap.
+Resume and personal web page built in Bootstrap.
 
 ## Copyright and License
 
