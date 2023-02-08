@@ -167,19 +167,37 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Senior Data Engineer</h3>
               <div class="resume-date text-md-left subheading">
-                <span class="text-primary">Jan 2021 – Present</span>
+                <span class="text-primary">Apr 2022 – Present</span>
               </div>
               <div class="subheading mb-3">Cloudflare, Lisbon</div>
               <ul class="fa-ul mb-4">
                 <li>
                   <i class="fa-li fa fa-check"></i>
-                  Developed Spark pipelines with throughputs of >30B rows and >5TB/day.</li>
+                  Migrated Apache Spark ingestion pipelines to Go improving peak throughputs from ~85k to 1.2M rows/s from Postgres, reading >4B rows/day.</li>
                 <li>
                   <i class="fa-li fa fa-check"></i>
-                  Aggregated requests and sensor data from Clickhouse and Prometheus in core and edge PoPs.</li>
+                  Reduced daily Postgres ingestion memory consumption 94% and ingestion time from 15h to 1h20m using b-tree index histograms, relieving constrained CPU and memory in core datacenter.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Data Engineer</h3>
+              <div class="resume-date text-md-left subheading">
+                <span class="text-primary">Jan 2021 – Mar 2022</span>
+              </div>
+              <div class="subheading mb-3">Cloudflare, Lisbon</div>
+              <ul class="fa-ul mb-4">
                 <li>
                   <i class="fa-li fa fa-check"></i>
-                  Built data lineage sensing tools in Airflow, reducing PagerDuty dependency incidents by 37%.</li>
+                  Developed data pipelines in Apache Spark with throughputs of >30B rows and >5TB/day.</li>
+                <li>
+                  <i class="fa-li fa fa-check"></i>
+                  Aggregated ClickHouse traffic and Prometheus metrics data from core and edge data centers.</li>
+                <li>
+                  <i class="fa-li fa fa-check"></i>
+                  Built data lineage sensing tools in Airflow, reducing data lineage incidents by 37%. Reduced MTTR and number of incidents by >50% QoQ, saving a 22-person team >800 man-hours per quarter.</li>
               </ul>
             </div>
           </div>
@@ -194,18 +212,18 @@
               <ul class="fa-ul mb-4">
                 <li>
                   <i class="fa-li fa fa-check"></i>
-                  Developed ML models detecting transaction fraud with 78% money recall at 1% FPR in Spark.</li>
+                  Developed ML models detecting transaction fraud with 78% $ recall at 1% FPR in Apache Spark.</li>
+                <li>
+                  <i class="fa-li fa fa-check"></i>
+                  Built data pipelines on Apache Hadoop clusters to train models on >1B rows of data.</li>
                 <li>
                   <i class="fa-li fa fa-check"></i>
                   Supported production systems with throughputs of >2k events/s and <200ms latency at 99.999%.</li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Built Spark pipelines on Hadoop clusters to train models on >1B rows of historical data.</li>
               </ul>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
+          <!-- <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Research Assistant</h3>
               <div class="resume-date text-md-left subheading">
@@ -224,7 +242,7 @@
                   Secured 2 successful grants from NVIDIA and Medtronic.</li>
               </ul>
             </div>
-          </div>
+          </div> -->
         </div>
 
       </section>
@@ -235,16 +253,16 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University College London</h3>
+              <h3 class="mb-0">UCL, London</h3>
               <div class="resume-date text-md-left subheading">
                 <span class="text-primary">Sep 2013 – Jun 2017</span>
               </div>
-              <div class="subheading mb-3">Master of Engineering - Mechanical Engineering (1st Class Honours)</div>
-              <p>Specialization in computer science and medical imaging.</p>
+              <div class="subheading mb-3">Master’s Degree, Mechanical Engineering</div>
+              <p>Thesis in Computer Science and Medical Imaging.</p>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
+          <!-- <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Lycee Francois Premier Fontainebleau</h3>
               <div class="resume-date text-md-left subheading">
@@ -253,7 +271,7 @@
               <div class="subheading mb-3">Scientific Baccaleaureate (Honours)</div>
               <p>Specialization in mathematics, physics and chemistry.</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </section>
